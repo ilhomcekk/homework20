@@ -1,0 +1,33 @@
+:root{
+    --blue: #093e9b;
+    --black: #343a40;
+    --lightblue: #c9d6ff;
+    --blueblue: #0c4ab5;
+    --white: #fff;
+    --darkblue: rgba(0,0,0,.2);
+}
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+p{
+    line-height: 30px;
+    font-size: 20px;
+    margin-bottom: 2rem;
+}
+#right-right{
+    opacity: 0.3;
+}
+#right-right:hover{
+    opacity: 1;
+    transition: 0.5s;
+}
+#bottom{
+    background: url(https://cdn.pizap.com/pizapfiles/images/photo_backgrounds_textures_app04.jpg) repeat;
+}
